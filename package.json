@@ -1,0 +1,27 @@
+{
+  "name": "wp-contacts-basic-auth",
+  "version": "1.0.1",
+  "description": "WP Contacts Basic Authentication.",
+  "repository": "zapier/zapier-platform-example-app-basic-auth",
+  "homepage": "https://sh-themes.com/",
+  "author": "Lee Beck <info@scripthat.com>",
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --recursive"
+  },
+  "engines": {
+    "node": ">=4.3.0",
+    "npm": ">=2.0.0"
+  },
+  "dependencies": {
+    "lodash": "4.15.0",
+    "zapier-platform-core": "0.9.10"
+  },
+  "devDependencies": {
+    "babel": "6.5.2",
+    "babel-eslint": "6.1.2",
+    "mocha": "2.5.3",
+    "should": "9.0.2"
+  }
+}
